@@ -125,10 +125,7 @@ public class FourNum extends Model{
 			this.e1 = e1;
 			this.e2 = e2;
 		}
-
 		double Cal(){
-			
-
 			switch(sel){
 			case 0:
 				this.str = "+";
@@ -143,11 +140,8 @@ public class FourNum extends Model{
 				this.str = "/";
 				return e1/e2;
 			default:
-
 				break;
 			}
-
-
 			return -1;
 		}
 		public String Getstr(){
@@ -164,6 +158,5 @@ public class FourNum extends Model{
 			}
 		}
 		System.out.println(count);
-
 	}
 }
