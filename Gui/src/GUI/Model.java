@@ -9,6 +9,4 @@ public abstract class Model {
 	public void SetANS(String s){this.ANS = s;}
 	public String GetANS(){return this.ANS;}
 	abstract boolean check();
-
-
 }
