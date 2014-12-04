@@ -148,6 +148,7 @@ public class FourNum extends Model{
 			return this.str;
 		}
 	}
+	//1000~9999の間に10になる数がいくつあるか調べる
 	public static void main(String[] args){
 		int count = 0;
 		FourNum f = new FourNum();
